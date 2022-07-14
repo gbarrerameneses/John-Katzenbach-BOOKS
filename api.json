@@ -1,0 +1,131 @@
+[
+    {
+        "id": 1,
+        "titulo": "El Psicoanalista",
+        "imagen": "./img/psicoa.jpg",
+        "escritor": "John Katzenbach",
+        "descripcion": "«Feliz aniversario, doctor. Bienvenido al primer día de su muerte.» Así comienza el anónimo que recibe el psicoanalista Frederick Starks, y que le obliga a emplear toda su astucia y rapidez para, en quince días, averiguar quién es el autor de esa amenazadora misiva que promete hacerle la vida imposible. De no conseguir su objetivo, deberá elegir entre suicidarse o ser testigo de cómo, uno tras otro, sus familiares y conocidos mueren por obra de un psicópata decidido a llevar hasta el final su sed de venganza. Dando un inesperado giro a la relación entre médico y paciente, John Katzenbach nos ofrece una novela emblemática d suspense psicológico. con casi 200.000 ejemplares vendidos en Espanña, El psicoanalista es la novela que lanzó a la fama a John Katzenbach.",
+        "precio": 348
+    },
+    {
+        "id": 2,
+        "titulo": "Juegos de Ingenio",
+        "imagen": "./img/juegos.jpg",
+        "escritor": "John Katzenbach",
+        "descripcion": "Susan Clayton trabaja en la sección de pasatiempos y enigmas de una revista. Un día encuentra una nota anónima en el buzón de su casa, y descifra el mensaje oculto: 'Te encontré'. Un mensaje realmente inquietante, porque Estados Unidos vive en esos momentos una escalada de violencia y todo el mundo atesora armas para protegerse. Sólo una comunidad ha logrado sobreponerse a este mundo de inseguridad: a cambio de renunciar a algunos derechos y libertades, el Territorio del Oeste ofrece una zona protegida que aspira a convertirse en el estado número cincuenta y uno de la Unión. Pero tal vez no sea tan fácil escapar al horror. Un agente del Servicio de Seguridad del nuevo territorio visita al hermano de Susan, un experto especializado en asesinos en serie, para requerir sus servicios. Una oleada de asesinatos está asolando la región. El principio de la cadena parece remontarse muchos años atrás, y puede que los Clayton tengan elementos para enfrentarse a él…",
+        "precio": 347
+    },
+    {
+        "id": 3,
+        "titulo": "Retrato en Sangre",
+        "imagen": "./img/retrato.jpg",
+        "escritor": "John Katzenbach",
+        "descripcion": "No es un viaje normal por carretera, pues él se dedica a secuestrar, matar y, después, fotografiar a sus víctimas; ella, a escribir sobre lo ocurrido y asegurarse de que ha plasmado correctamente la historia, porque sabe que luego su captor lo revisará todo.",
+        "precio": 257
+    },
+    {
+        "id": 4,
+        "titulo": "La Historia del Loco",
+        "imagen": "./img/historia.jpg",
+        "escritor": "John Katzenbach",
+        "descripcion": "Veinte años después de su confinamiento en Western State Hospital, el ex paciente Francis Petrel recuerda el brutal asesinato sexual que condujo al cierre del asilo. P la historia del loco supuso uno de los grandes éxitos de su autor, el norteamericano John Katzenbach, autor de novelas tan conocidas como el psicoanalista. Su familia lo recluyó en el psiquiátrico tras una conducta imprevisible. Ahora Francis lleva una vida solitaria, pero un reencuentro en los terrenos de la clausurada institución remueve algo profundo en su mente agitada: unos recuerdos sombríos sobre los truculentos hechos que condujeron al cierre del W. S. Hospital, y el asesinato sin resolver de una joven enfermera, cuyo cadáver mutilado fue encontrado una noche después del cierre de las luces. La policía sospechó de un paciente, pero sólo ahora, con la reaparición del asesino, se conocerá la respuesta.",
+        "precio": 379
+    },
+    {
+        "id": 5,
+        "titulo": "El Hombre Equivocado",
+        "imagen": "./img/hombre.jpg",
+        "escritor": "John Katzenbach",
+        "descripcion": "Ashley Freeman, estudiante de historia del arte en Boston, tiene una relación de una noche con un desconocido llamado Michael O'Connell. Al principio, parece un admirador insistente, pero poco a poco O'Connell, un ingenioso hacker, va entrando en la vida no sólo de Ashley, sino también del padre de ésta, un serio profesor universitario, y de su madre, una prestigiosa abogada, revelándose como un psicópata obsesionado por controlar la vida de la chica. Todo se convierte en una pesadilla. No hay posibilidad de disuadirlo: ni los sobornos ni las amenazas lo detienen. Y cuando el investigador asignado al caso aparece muerto, la familia entera entiende que se enfrenta a algo mucho más serio de lo que han imaginado.",
+        "precio": 344
+    },
+    {
+        "id": 6,
+        "titulo": "La Sombra",
+        "imagen": "./img/sombra.jpg",
+        "escritor": "John Katzenbach",
+        "descripcion": "«Feliz aniversario, doctor. Bienvenido al primer día de su muerte.» Así comienza el anónimo que recibe el psicoanalista Frederick Starks, y que le obliga a emplear toda su astucia y rapidez para, en quince días, averiguar quién es el autor de esa amenazadora misiva que promete hacerle la vida imposible.",
+        "precio": 299
+    },
+    {
+        "id": 7,
+        "titulo": "El Profesor",
+        "imagen": "./img/profe.jpg",
+        "escritor": "John Katzenbach",
+        "descripcion": "Del autor de El psicoanalista, llega su nuevo thriller donde la única vía de escape de una joven de 16 años raptada por una pareja de psicópatas es un viejo profesor de Psicología ya jubilado.",
+        "precio": 359
+    },
+    {
+        "id": 8,
+        "titulo": "Jaque al Psicoanalista",
+        "imagen": "./img/jaque.jpg",
+        "escritor": "John Katzenbach",
+        "descripcion": "Un auténtico i thriller /I con elementos muy oscuros, dinamismo, tensión, violencia contenida y constantes giros.La esperada continuación de i el Psicoanalista. /I Han pasado cinco años desde que el doctor Starks acabó con la pesadilla que casi le cuesta la vida y que arrasó con todo lo que había sido hasta entonces, descubriéndole las facetas más oscuras del alma humana, también la suya. Desde entonces, ha logrado reconstruir su vida profesional y vuelve a ejercer de psicoanalista instalado en Miami y atendiendo a adolescentes con graves problemas psicológicos y también a pacientes adinerados de la sociedad de Florida. Sin embargo, una noche, cuando entra en su consulta, descubre tumbado en el diván a aquel al que había dado por muerto: Rumplestilskin ha vuelto y esta vez no busca acabar con él sino solicitar su ayuda. Por supuesto, no va a aceptar un no por respuesta.",
+        "precio": 340
+    },
+    {
+        "id": 9,
+        "titulo": "Un Final Perfecto",
+        "imagen": "./img/final.jpg",
+        "escritor": "John Katzenbach",
+        "descripcion": "El retorno del autor de El psicoanalista. Un thriller sobre la lucha a muerte entre un refinado psicópata y sus tres víctimas.Sólo unos kilómetros de distancia separan a tres mujeres que no se conocen entre sí. Una es doctora; otra, profesora; la tercera, estudiante. Las tres son pelirrojas y vulnerables. Las tres son el próximo objetivo de un psicópata obsesionado con completar su obra de arte final. Crímenes que serán estudiados en las universidades, de los que se hablará durante décadas. Crímenes perfectos. El asesino les dice a las tres mujeres que va a matarlas. No saben cuándo, ni cómo, ni dónde. Sólo saben que él está ahí fuera, cada vez más cerca. Que conoce todo sobre ellas. Y que ha comenzado un terrible acoso psicológico que las empujará paso a paso hacia la muerte. Ahora sólo tienen dos salidas: cambiar el final del cuento o ser devoradas por su peor pesadilla.",
+        "precio": 288
+    },
+    {
+        "id": 10,
+        "titulo": "Juicio Final",
+        "imagen": "./img/juicio.jpg",
+        "escritor": "John Katzenbach",
+        "descripcion": "...",
+        "precio": 264
+    },
+    {
+        "id": 11,
+        "titulo": "El Club de los Psicópatas",
+        "imagen": "./img/club.jpg",
+        "escritor": "John Katzenbach",
+        "descripcion": "El maestro del thriller nos mantiene en vilo con esta oscura novela de acción sobre el enfrentamiento mortal entre un grupo de ps icópatas y dos adolescentes. Alpha, Bravo, Charlie, Delta y Easy se hacen llamar los Muchachos de Jack, en honor a Jack el DestriPador. Entre ellos no se conocen más que por un chat en la Dark Web donde comparten su verdadera pasión: ser artistas del asesinato. Cuando Connor y Nikki violan la intimidad de su chat, la furia de estos psicópatas no hace más que comenzar y no se detendrán ante nada. Con una inteligencia feroz, los Muchachos de Jack planean como venganza la muerte de los dos adolescentes junto con sus familias. Sin embargo, Connor y Niki no son como el resto de las víctimas de estos asesinos seriales. La pesadilla comienza y solo hay dos opciones: dejarse cazar o sobre vivir.",
+        "precio": 499
+    },
+    {
+        "id": 12,
+        "titulo": "Personas Desconocidas",
+        "imagen": "./img/personas.jpg",
+        "escritor": "John Katzenbach",
+        "descripcion": "Katzenbach nos ofrece un thriller de ritmo imparable, protagonistas convincentes y trama compleja pero fascinante al mismo tiempo.",
+        "precio": 379
+    },
+    {
+        "id": 13,
+        "titulo": "La Guerra de Hart",
+        "imagen": "./img/guerra.jpg",
+        "escritor": "John Katzenbach",
+        "descripcion": "El autor de El psicoanalista nos traslada con esta estremecedora ysorprendente novela de suspense a la Alemania de la Segunda GuerraMundial. La guerra de Hart ha sido llevada al cine con Bruce Willis yColin Farrell como protagonistas. Campo de prisioneros Stalag Luft 13, Alemania, Segunda Guerra Mundial. El joven teniente Tommy Hart, único superviviente de la tripulación de un B-25 abatido durante unbombardeo, pasa sus días confinado en un campo de prisioneros alemán,ajeno a las actividades cotidianas de sus compañeros de encierro.Solitario, dedica su tiempo a estudiar Derecho, carrera que tuvo queinterrumpir cuando estalló la guerra. El tedio con que se suceden losmeses en el campo acaba el día en que llega el aviador afroamericanoLincoln Scott y se convierte en el objetivo de la animosidad racial de Vincent Bedford, un condecorado capitán de bombardero de Misisipi.Cuando Bedford aparece asesinado en las letrinas del campo, todas lassospechas recaen en Scott. Con el permiso del coronel alemán VonReiter, un grupo de oficiales estadounidenses organiza el juicio deScott, y Hart es asignado abogado defensor. Su tarea será ardua, puesa medida que el juicio avance quedará patente que el asesinato ocultauna verdadera conspiración.",
+        "precio": 219
+    },
+    {
+        "id": 14,
+        "titulo": "El Estudiante",
+        "imagen": "./img/estudiante.jpg",
+        "escritor": "John Katzenbach",
+        "descripcion": "El autor de el psicoanalista vuelve a deslumbrarnos con otra historia de suspense dotada de una trama impecable y un ritmo frenético, cuyos personajes caminan sobre el filo de la navaja de comienzo a fin. Para Timothy Moth Warner, cada día que pasa sobrio es una batalla ganada. Mientras intenta mantenerse alejado del alcohol, alterna sus clases de posgrado en la Universidad de Miami con las reuniones de un grupo de autoayuda para adictos. Su tío Ed, médico psiquiatra y alcohólico rehabilitado, es su gran apoyo moral. Preocupado porque ed ha faltado a una cita, Moth se dirige a la consulta de su tío y lo encuentra muerto en medio de un charco de sangre. Aparentemente se ha disparado en la sien. Para la policía se trata de un suicidio, y pronto se da el caso por cerrado. Sin embargo, Moth está convencido de que ed fue asesinado. Dolorido y resuelto a encontrar al criminal, busca apoyo en la única persona en la que puede confiar: Andrea Martine, su exnovia y a la que no ve desde hace cuatro años. Pese a que está deprimida tras vivir una situación traumática, Andy no puede dejar de escucharlo. Mientras luchan contra sus demonios interiores, los dos jóvenes se irán internando en un territorio oscuro y desconocido, habitado por una mente tortuosa y vengativa que no cejará ante nada para lograr su objetivo.",
+        "precio": 281
+    },
+    {
+        "id": 15,
+        "titulo": "Confianza Ciega",
+        "imagen": "./img/confianza.jpg",
+        "escritor": "John Katzenbach",
+        "descripcion": "Vuelve el maestro del i B thriller /I B con una nueva novela de acción trepidante en la que nada de lo que ocurre es lo que parece ni nadie es quien dice ser. Por el autor de i B el psicoanalista /I B y i B Jaque al psicoanalista /I B. P Cuando Maeve desaparece sin dejar rastro, su hija Sloane no se sorprende: si su madre tenía que desaparecer, solo podía ser en extrañas circunstancias. Sin embargo, esta vez es distinto: al cabo de unos días de la desaparición de su progenitora, Sloane recibe un paquete que esta misma le ha mandado, con varios miles de dólares, la escritura de su casa y un arma. También hay una nota con las siguientes palabras: B Vén delo todo. Quédate la pistola. Practica. Huye. Ahora. A solo dos semanas de graduarse como arquitecta y en medio de esta encrucijada personal, Sloane recibe la oferta de trabajo de un misterioso millonario que quiere construir seis memoriales para seis personas que murieron, de nuevo, en extrañas circunstancias. A medida que Sloane investiga esas muertes, el consejo de su madre se hace cada vez más presente. ¿En quién puede confiar ahora Sloane? ¿Tendrá tiempo de seguir las indicaciones de su madre cuando llegue al final del laberinto que ha ido creando su siniestro empleador?",
+        "precio": 375
+    },
+    {
+        "id": 16,
+        "titulo": "Un Asunto Pendiente",
+        "imagen": "./img/asunto.jpg",
+        "escritor": "John Katzenbach",
+        "descripcion": "Megan y Duncan Richards son gente normal. Él es banquero; ella, agente inmobiliaria. Tienen dos hijas adolescentes y un hijo. Viven en una casa preciosa. Todo indica que sus días de activistas políticos, allá por 1968, han quedado muy atrás. Después de todo, cualquiera que fuera joven en 1968 tiene un pasado activista.",
+        "precio": 329
+    }
+    
+]

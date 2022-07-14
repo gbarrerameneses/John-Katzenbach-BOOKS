@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"/>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"/>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <title>John Katzenbach BOOKS</title>
+  </head>
+  <body>
+    <header class="header banner">
+      <nav class="">
+        <ul class="ul-nav text-header">
+          <li>
+            <img src="./img/book.svg" alt="" class="book-image" />
+             John Katzenbach <span class="book-header">BOOKS</span>
+          </li>
+          <li>
+            <section class="buscador">
+              <form class="form container">
+                <input type="text" required id="buscadorInput" />
+                <label class="lbl-nombre">
+                  <span class="text-nomb">
+                    <img src="./img/search.svg" alt="" class="search-image" />
+                    Search...</span>
+                </label>
+              </form>
+            </section>
+          </li>
+          <li
+            class="btns"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasTop"
+            aria-controls="offcanvasTop">
+            My Basket
+            <img src="./img/basket.svg" alt="" class="basket-image" />
+          </li>
+        </ul>
+        <div
+          class="offcanvas offcanvas-top"
+          tabindex="-1"
+          id="offcanvasTop"
+          aria-labelledby="offcanvasTopLabel">
+          <div class="offcanvas-header">
+            <h5 id="offcanvasTopLabel">Tu canasta...</h5>
+            <button
+              type="button"
+              class="btn-close text-reset"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <table class="table" id="table">
+              <thead>
+                <tr id="template-header-carrito">
+                  <th scope="col">#</th>
+                  <th scope="col">Books</th>
+                  <th scope="col">Qty</th>
+                  <th scope="col">Action</th>
+                  <th scope="col">Total</th>
+                </tr>
+              </thead>
+              <tbody id="items"></tbody>
+              <tfoot>
+                <tr id="footer">
+                  <th scope="row" colspan="5">
+                    Canasta vacío - comience a comprar!
+                  </th>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <template id="template-carrito">
+          <tr>
+            <th scope="row">id</th>
+            <td>Libro</td>
+            <td>1</td>
+            <td>
+              <button class="btn btn-info btn-sm">
+                <img src="./img/add.svg" alt="" class="add-image"/>
+              </button>
+              <button class="btn btn-danger btn-sm">
+                <img src="./img/garbage.svg" alt="" class="garbage-image"/>
+              </button>
+            </td>
+            <td>$ <span>500</span></td>
+          </tr>
+        </template>
+        <template id="template-footer">
+          <th scope="row" colspan="2">Total qty</th>
+          <td>10</td>
+          <td>
+            <button class="btns btn-danger btn-sm" id="vaciar-carrito">Empty bag</button>
+            <button class="btns btn-danger btn-sm" id="pagar-carrito">Pay</button>
+          </td>
+          <td class="font-weight-bold">$ <span>5000</span></td>
+        </template>
+      </section>
+      <section class="libros">
+        <div class="container">
+          <div class="info-icons">
+            <div class="cInfo">
+              <div class="icon-img">
+                <img src="./img/tablet.svg" alt="" />
+              </div>
+              <div class="icon-text">
+               In electronic version of a printed book that can be read on a computer
+              </div>
+            </div>
+            <div class="cInfo">
+              <div class="icon-img">
+                <img src="./img/headphone.svg" alt="" />
+              </div>
+              <div class="icon-text">
+                In audiocassette or CD recoding of a reading of a book, typically a novet
+              </div> 
+            </div>
+            <div class="cInfo">
+              <div class="icon-img">
+                <img src="./img/news.svg" alt="" />
+              </div>
+              <div class="icon-text">
+                A periodical publication contaning articles and illustrations information
+              </div> 
+            </div>
+          </div>
+          <div class="container arrivals">
+            <div>
+              <img src="./img/opened-book.svg" alt="" class="opened-book" />
+            </div>
+            <div><h2>New Arrivals</h2></div>
+          </div>
+          <div class="row justify-content-sm-center pdnng" id="cards"></div>
+          <template id="template-card">
+            <div class="mt-2 mb-2 col-xs-3 offset-xs-3 col-sm-4 col-md-3 col-lg-3 cardsInput">
+              <div class="card">
+                <img src="" alt="" class="img-card-top" />
+                <div class="card-body">
+                  <p>Title</p>
+                  <p class="price"><strong>$ <span>Price</span></strong></p>
+                  <button class="btns btn-dark btns-purchase">Add <img src="./img/click.svg" alt="" class="more" /></button>
+                  <button
+                    class="btns"
+                    href="#"
+                    role="button"
+                    id="dropdownMenuLink"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <img src="./img/more.svg" alt="" class="more" />
+                  </button>
+                  <p class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <span class="dropdown-item" id="em"><em>Details</em></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </template>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container-fluid pt-4 mb-2 bckg-clr">
+        <div class="container">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Subscribe Newsletter</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="example@example.com"/>
+              <div id="emailHelp" class="form-text">
+                We'll never share your email with anyone else.
+              </div>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="taskInput" />
+              <label class="form-check-label" for="taskInput">I agree to receive information</label>
+            </div>
+            <a class="btn btn-primary mb-4" id="addButton">Submit</a>
+          </form>
+          <p><small>Copyright</small></p>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
