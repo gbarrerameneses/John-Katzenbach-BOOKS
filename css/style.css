@@ -40,9 +40,13 @@ p {
   padding: 25px;
   color: #fff;
 }
-.ul-nav li {   
+.ul-nav li,
+.ul-nav li a {   
   color: #ffffff;
   letter-spacing: 1px;
+}
+.ul-nav li a {   
+  list-style:  none;
 }
 .btns {
   border-radius: 12px;
@@ -186,7 +190,7 @@ p {
   width: 100%;
   height: 100%;
   background: none;
-  color: #fff;
+  color: #303d42;
   padding-top: 15px;
   border: none;
   outline: 0px;

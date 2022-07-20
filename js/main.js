@@ -168,11 +168,11 @@ document.addEventListener('keyup', e =>{
     }
   })
 
-const addButton = document.getElementById('addButton')
-  addButton.addEventListener('click',() => {
-        Swal.fire(
-            'Good job!',
-            'You clicked the button!',
-            'success'
-          )
-    })
+// const addButton = document.getElementById('addButton')
+//   addButton.addEventListener('click',() => {
+//         Swal.fire(
+//             'Good job!',
+//             'You clicked the button!',
+//             'success'
+//           )
+//     })

@@ -33,7 +33,9 @@
              John Katzenbach <span class="book-header">BOOKS</span>
           </li>
           <li>
-            <section class="buscador">
+            <a href="#Lorem_Ipsum" >Newsletter</a>
+
+            <!-- <section class="buscador">
               <form class="form container">
                 <input type="text" required id="buscadorInput" />
                 <label class="lbl-nombre">
@@ -42,7 +44,7 @@
                     Search...</span>
                 </label>
               </form>
-            </section>
+            </section> -->
           </li>
           <li
             class="btns"
@@ -153,6 +155,16 @@
             </div>
             <div><h2>New Arrivals</h2></div>
           </div>
+            <section class="buscador">
+              <form class="form container">
+                <input type="text" required id="buscadorInput" />
+                <label class="lbl-nombre">
+                  <span class="text-nomb">
+                    <img src="./img/search.svg" alt="" class="search-image" />
+                    Search...</span>
+                </label>
+              </form>
+            </section>
           <div class="row justify-content-sm-center pdnng" id="cards"></div>
           <template id="template-card">
             <div class="mt-2 mb-2 col-xs-3 offset-xs-3 col-sm-4 col-md-3 col-lg-3 cardsInput">
@@ -182,14 +194,25 @@
       </section>
     </main>
     <footer>
-      <div class="container-fluid pt-4 mb-2 bckg-clr">
+      <div class="container-fluid pt-4 mb-2 bckg-clr"  id="Lorem_Ipsum">
         <div class="container">
-          <form>
+          <form id="form">
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label">Subscribe Newsletter</label>
+              
+              <div class="row">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="First name" aria-label="First name" name="name" id="name" required>
+                </div>
+                <div class="col">
+                  <input type="text" name="last" id="last"  class="form-control" placeholder="Last name" aria-label="Last name" >
+                </div>
+              </div>
+
               <input
                 type="email"
-                class="form-control"
+                name="email"
+                class="form-control mt-4"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
                 placeholder="example@example.com"/>
@@ -198,15 +221,62 @@
               </div>
             </div>
             <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="taskInput" />
+              <input type="checkbox" class="form-check-input" id="taskInput" required />
               <label class="form-check-label" for="taskInput">I agree to receive information</label>
             </div>
-            <a class="btn btn-primary mb-4" id="addButton">Submit</a>
+            <input type="submit" id="button" class="btn btn-primary mb-4" value="Send Email" >
+            <!-- <a class="btn btn-primary mb-4" id="button" value="Send Email">Submit</a> -->
           </form>
+          <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+          <script type="text/javascript"> emailjs.init('f8yvB6hVJgxkSVVEn')  </script>
           <p><small>Copyright</small></p>
         </div>
       </div>
     </footer>
     <script src="./js/main.js"></script>
+    <!-- <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+      (function(){
+          emailjs.init("YOUR_PUBLIC_KEY");
+      })();
+    </script> -->
   </body>
+  
+
+  <script>
+    const btn = document.getElementById('button');
+
+      document.getElementById('form')
+      .addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        btn.value = 'Sending...';
+
+        const serviceID = 'default_service';
+        const templateID = 'template_klr2ptm';
+
+        emailjs.sendForm(serviceID, templateID, this)
+          .then(() => {
+            btn.value = 'Send Email';
+            // alert('Sent!');
+            Swal.fire(
+              'Good job!',
+              'Send Email!',
+              'success'
+            )
+          }, (err) => {
+            btn.value = 'Send Email';
+            // alert(JSON.stringify(err));
+            Swal.fire({
+              icon: 'error',
+              title: 'Oops...',
+              text: 'Something went wrong!',
+              // footer: '<a href="">Why do I have this issue?</a>'
+            })
+          });
+      });
+  </script>
 </html>
