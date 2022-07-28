@@ -112,7 +112,7 @@ const pintarFooter = () => {
         Swal.fire({
             position: 'top-end',
             icon: 'success',
-            title: 'Your basket was successfully deleted',
+            title: '¡Tu canasta fue eliminada!',
             showConfirmButton: false,
             timer: 1500
           })
@@ -122,8 +122,8 @@ const pintarFooter = () => {
         carrito = {}
         pintarCarrito()
         Swal.fire(
-            'Good job!',
-            'You clicked the button!',
+            '¡Genial!',
+            '¡Tu compra a sido exitosa!',
             'success'
           )
     })
@@ -167,12 +167,3 @@ document.addEventListener('keyup', e =>{
         })
     }
   })
-
-// const addButton = document.getElementById('addButton')
-//   addButton.addEventListener('click',() => {
-//         Swal.fire(
-//             'Good job!',
-//             'You clicked the button!',
-//             'success'
-//           )
-//     })

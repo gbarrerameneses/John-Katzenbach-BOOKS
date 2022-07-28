@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./img/book-w.svg">
     <link rel="stylesheet" href="./css/style.css" />
     <link
       rel="stylesheet"
@@ -29,22 +30,11 @@
       <nav class="">
         <ul class="ul-nav text-header">
           <li>
-            <img src="./img/book.svg" alt="" class="book-image" />
+            <img src="./img/book-w.svg" alt="logo" class="book-image" />
              John Katzenbach <span class="book-header">BOOKS</span>
           </li>
           <li>
-            <a href="#Lorem_Ipsum" >Newsletter</a>
-
-            <!-- <section class="buscador">
-              <form class="form container">
-                <input type="text" required id="buscadorInput" />
-                <label class="lbl-nombre">
-                  <span class="text-nomb">
-                    <img src="./img/search.svg" alt="" class="search-image" />
-                    Search...</span>
-                </label>
-              </form>
-            </section> -->
+            <a href="#newsletter" class="news">Newsletter</a>
           </li>
           <li
             class="btns"
@@ -52,8 +42,8 @@
             data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasTop"
             aria-controls="offcanvasTop">
-            My Basket
-            <img src="./img/basket.svg" alt="" class="basket-image" />
+            Mi canasta
+            <img src="./img/basket.svg" alt="canasta" class="basket-image" />
           </li>
         </ul>
         <div
@@ -74,9 +64,9 @@
               <thead>
                 <tr id="template-header-carrito">
                   <th scope="col">#</th>
-                  <th scope="col">Books</th>
-                  <th scope="col">Qty</th>
-                  <th scope="col">Action</th>
+                  <th scope="col">Libros</th>
+                  <th scope="col">Cantidad</th>
+                  <th scope="col">Accion</th>
                   <th scope="col">Total</th>
                 </tr>
               </thead>
@@ -84,7 +74,7 @@
               <tfoot>
                 <tr id="footer">
                   <th scope="row" colspan="5">
-                    Canasta vacío - comience a comprar!
+                    Canasta vacíoa - ¡Comience a agregar libros a su canasta!
                   </th>
                 </tr>
               </tfoot>
@@ -112,11 +102,11 @@
           </tr>
         </template>
         <template id="template-footer">
-          <th scope="row" colspan="2">Total qty</th>
+          <th scope="row" colspan="2">Cantidad Total</th>
           <td>10</td>
           <td>
-            <button class="btns btn-danger btn-sm" id="vaciar-carrito">Empty bag</button>
-            <button class="btns btn-danger btn-sm" id="pagar-carrito">Pay</button>
+            <button class="btn btn-danger btn-sm" id="vaciar-carrito">Vaciar canasta</button>
+            <button class="btn btn-success btn-sm" id="pagar-carrito">Pagar</button>
           </td>
           <td class="font-weight-bold">$ <span>5000</span></td>
         </template>
@@ -129,7 +119,7 @@
                 <img src="./img/tablet.svg" alt="" />
               </div>
               <div class="icon-text">
-               In electronic version of a printed book that can be read on a computer
+               Obten tu libro favorito en versión digital para cualquier dispositivo.
               </div>
             </div>
             <div class="cInfo">
@@ -137,7 +127,7 @@
                 <img src="./img/headphone.svg" alt="" />
               </div>
               <div class="icon-text">
-                In audiocassette or CD recoding of a reading of a book, typically a novet
+               Obten tu audiolibro favorito en formato de audiocassette y/o CD.
               </div> 
             </div>
             <div class="cInfo">
@@ -145,7 +135,7 @@
                 <img src="./img/news.svg" alt="" />
               </div>
               <div class="icon-text">
-                A periodical publication contaning articles and illustrations information
+               Recibe las mejores noticias, suscribete a nuestro Newsletter
               </div> 
             </div>
           </div>
@@ -153,7 +143,7 @@
             <div>
               <img src="./img/opened-book.svg" alt="" class="opened-book" />
             </div>
-            <div><h2>New Arrivals</h2></div>
+            <div><h2>Lo nuevo</h2></div>
           </div>
             <section class="buscador">
               <form class="form container">
@@ -161,7 +151,7 @@
                 <label class="lbl-nombre">
                   <span class="text-nomb">
                     <img src="./img/search.svg" alt="" class="search-image" />
-                    Search...</span>
+                    Buscar...</span>
                 </label>
               </form>
             </section>
@@ -194,18 +184,28 @@
       </section>
     </main>
     <footer>
-      <div class="container-fluid pt-4 mb-2 bckg-clr"  id="Lorem_Ipsum">
+      <div class="container-fluid pt-4 mb-2 bckg-clr"  id="newsletter">
+        <section>
+          <div class="books-inicio">
+            <a href=""><img src="./img/books.svg" alt=""></a>
+          </div>
+        </section>
         <div class="container">
           <form id="form">
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Subscribe Newsletter</label>
-              
+              <label for="exampleInputEmail1" class="form-label">Subscribete a nuestro Newsletter</label>
+              <p>Este es un formulario en el que debes de ingresar tu nombre, apellido y tu correo electrónico.
+                <br>En realidad no te estás inscribiendo a un Newsletter, solamente vas a recibir un correo de respuesta automática
+                del siguiente correo Recibiras un correo de newsletter.javascript.project@gmail.com que
+                aparecerá en tu bandeja de entrada o en spam, pero no te espantes ya que es una respuesta de agradecimiento por ver mi
+                trabajo. Es muy importante que lo envies desde un correo en el que puedas acceder.
+              </p>
               <div class="row">
                 <div class="col">
-                  <input type="text" class="form-control" placeholder="First name" aria-label="First name" name="name" id="name" required>
+                  <input type="text" class="form-control" placeholder="Nombre" aria-label="First name" name="name" id="name" required>
                 </div>
                 <div class="col">
-                  <input type="text" name="last" id="last"  class="form-control" placeholder="Last name" aria-label="Last name" >
+                  <input type="text" name="last" id="last"  class="form-control" placeholder="Apellido" aria-label="Last name" >
                 </div>
               </div>
 
@@ -217,64 +217,47 @@
                 aria-describedby="emailHelp"
                 placeholder="example@example.com"/>
               <div id="emailHelp" class="form-text">
-                We'll never share your email with anyone else.
+                <p><small>Nunca compartiremos su correo electrónico con nadie más.</small></p>
               </div>
             </div>
             <div class="mb-3 form-check">
               <input type="checkbox" class="form-check-input" id="taskInput" required />
-              <label class="form-check-label" for="taskInput">I agree to receive information</label>
+              <label class="form-check-label" for="taskInput">Estoy de acuerdo en que no me estoy suscribiendo a ningun Newsletter.</label>
             </div>
-            <input type="submit" id="button" class="btn btn-primary mb-4" value="Send Email" >
+            <input type="submit" id="button" class="btn btn-primary mb-4" value="Enviar correo" >
             <!-- <a class="btn btn-primary mb-4" id="button" value="Send Email">Submit</a> -->
           </form>
           <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
           <script type="text/javascript"> emailjs.init('f8yvB6hVJgxkSVVEn')  </script>
-          <p><small>Copyright</small></p>
+          <p class="copy"><small>Copyright © Sitio desarrollado por Gus Barrera</small></p>
         </div>
       </div>
     </footer>
     <script src="./js/main.js"></script>
-    <!-- <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-    </script>
-    <script type="text/javascript">
-      (function(){
-          emailjs.init("YOUR_PUBLIC_KEY");
-      })();
-    </script> -->
   </body>
-  
-
   <script>
     const btn = document.getElementById('button');
-
       document.getElementById('form')
       .addEventListener('submit', function(event) {
         event.preventDefault();
-
         btn.value = 'Sending...';
-
         const serviceID = 'default_service';
         const templateID = 'template_klr2ptm';
-
         emailjs.sendForm(serviceID, templateID, this)
           .then(() => {
             btn.value = 'Send Email';
-            // alert('Sent!');
             Swal.fire(
-              'Good job!',
-              'Send Email!',
+              '¡Buen trabajo!',
+              '¡Tu correo se ha enviado exitosamente! Recibiras un correo de newsletter.javascript.project@gmail.com',
               'success'
             )
           }, (err) => {
             btn.value = 'Send Email';
-            // alert(JSON.stringify(err));
             Swal.fire({
               icon: 'error',
               title: 'Oops...',
-              text: 'Something went wrong!',
-              // footer: '<a href="">Why do I have this issue?</a>'
+              text: 'Lo sentimos, ocurrió un problema, intentalo más tarde!',
             })
           });
       });
